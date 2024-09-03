@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter to Number Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Letter to Number Calculator</h1>
+        <input type="text" id="inputText" placeholder="Enter letters (e.g., K A)">
+        <select id="operation">
+            <option value="+">Add (+)</option>
+            <option value="-">Subtract (-)</option>
+            <option value="*">Multiply (*)</option>
+            <option value="/">Divide (/)</option>
+        </select>
+        <button onclick="calculateResult()">Calculate</button>
+        <p id="result">Result: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
